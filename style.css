@@ -1,0 +1,29 @@
+.header {
+  margin-top: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 45%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  flex-direction: column;
+}
+
+.iti__flag {background-image: url("./intlTelp/img/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("./intlTelp/img/flags@2x.png");}
+}
+
+
+
